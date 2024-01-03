@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-brand {
+    color: aquamarine;
+}
+
+
+
+.navbar-nav .nav-link.active {
+    color: yellow;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar-toggler {
+background-color: rgb(128, 123, 123)
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+body {
+    background: linear-gradient(90deg, #726969 0%, #8c7373 98%, #c7b5e8 100%); 
+font-family: Michroma, serif;
+}
+
+p {
+    color: aquamarine;
+}
+.m-4 {
+    margin: 0rem!important;
+}
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #726969 0%, #8c7373 98%, #c7b5e8 100%); 
+
+}
+
+.card {
+    background: linear-gradient(270deg, #726969 0%, #8c7373 98%, #c7b5e8 100%);
+    color: aquamarine;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer,
+.btn-primary {
+    background: linear-gradient(270deg, #726969 0%, #8c7373 98%, #c7b5e8 100%);
+}
+
+
+.call-anim {
+    animation: myAnim 4s ease-out 0s 5 normal both;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 755px) {
+        .carousel-indicators {
+            display: none;
+        }
+}
